@@ -1,4 +1,4 @@
-# Terraform Workspace for AWS multi account archtetctures.
+# Terraform Workspace for AWS multi account archtectures.
 
 ## Abstract
 
@@ -93,7 +93,7 @@ provider "aws" {
 
 To take profit of this approach we should name the **tfvar** files according to workspaces and in the **variables.tf** load it dynamically.
 
-`dev.tfvars`
+**dev.tfvars**
 
 ```
 env_name   = "development"
@@ -141,5 +141,7 @@ You can define the environment var `TF_WORKSPACE` with the name of environment t
 ### References
 
 [Terraform AWS provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
+
 [Customize Terraform configuration with variables](https://developer.hashicorp.com/terraform/tutorials/configuration-language/variables)
+
 [Terraform Workspaces](https://developer.hashicorp.com/terraform/language/state/workspaces)
