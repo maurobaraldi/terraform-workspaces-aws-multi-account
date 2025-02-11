@@ -1,4 +1,4 @@
-# Terraform Workspace for AWS multi account archtectures.
+# Terraform Workspace for AWS multi account architectures.
 
 ## Abstract
 
