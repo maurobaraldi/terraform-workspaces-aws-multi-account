@@ -136,7 +136,7 @@ resource "aws_vpc" "main" {
 
 ### Provisioning
 
-You can define the environment var `TF_WORKSPACE` with the name of environment that you're running, to get variables dynamically, exporting it to wide environment `export TF_WORKSPACE="dev"` and then run the plan/apply command, or passing it as instant env var with `TF_WORKSPACE="dev" opentofu -var-file=$TF_WORKSPACE.tfvars -var-file=globals.tfvars`.
+You can define the environment var `TF_WORKSPACE` with the name of environment that you're running, to get variables dynamically, exporting it to wide environment `export TF_WORKSPACE="dev"` and then run the plan/apply command, or passing it as instant env var with `TF_WORKSPACE="dev" opentofu plan -var-file=$TF_WORKSPACE.tfvars -var-file=globals.tfvars`.
 
 ### References
 
